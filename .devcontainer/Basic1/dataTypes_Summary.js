@@ -34,3 +34,30 @@ const myfunction = function(){
 console.log(typeof myfunction);
 
 
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive)=> getting a copy, Heap(Non- Primitive) => getting a refernce VAlue
+let myYouTubeName = "rahulkhambra"
+let anotherNAme = myYouTubeName
+anotherNAme = "Rahul khambra shorts"
+
+console.log(myYouTubeName);
+console.log(anotherNAme);
+
+const userOne ={
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "rahul@google.com"
+
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
+
