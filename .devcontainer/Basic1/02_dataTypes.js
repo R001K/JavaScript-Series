@@ -1,6 +1,6 @@
 "use strict"; // treat all Js code as newer version
 
-// alert("hello") // we are not using JS, not broswer
+//alert("hello") // we are not using JS, not broswer
 // alert(3 + 3)
 
 console.log( 3 + 3); // code readable should be High 
