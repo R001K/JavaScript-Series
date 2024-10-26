@@ -30,16 +30,35 @@ const obj5= {4: "a", 5:"b"}
 
 const obj3 = {obj1, obj2}
 const obj4 = Object.assign(obj1, obj2);
-console.log("obj444",obj5);
+//console.log("obj444",obj5);
 
 const obj6= {...obj1, ...obj2}
-console.log("obj6",obj6);
+// console.log("obj6",obj6);
 
-console.log("tinderUSer",tinderUSer);
+// console.log("tinderUSer",tinderUSer);
 
-console.log(Object.keys(tinderUSer));
-console.log(Object.values(tinderUSer));
-console.log(Object.entries(tinderUSer));
+// console.log(Object.keys(tinderUSer));
+// console.log(Object.values(tinderUSer));
+// console.log(Object.entries(tinderUSer));
 
-console.log(tinderUSer.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUSer.hasOwnProperty('isLoggedIn'));
+
+// Destructure of Object
+
+const course ={
+    coursename: "JS in hindi",
+    price: "99",
+    courseInstructor: "rahul"
+}
+
+// Course.Contructor
+
+const {courseInstructor: instructor} = course;
+//console.log(courseInstructor);
+console.log(instructor);
+
+{
+
+}
+
 
