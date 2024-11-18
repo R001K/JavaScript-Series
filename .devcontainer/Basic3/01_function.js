@@ -54,3 +54,32 @@ console.log(loginPage("rahul","khambra"));
     
 
 
+// rest/spread operator = ...
+function calculateCartPrice(...num1){
+return num1
+
+//return num1.reduce((acc, curr) => acc + curr, 0);
+}
+console.log(calculateCartPrice(200, 600, 800));
+
+// const totalPrice = calculateCartPrice(200, 600, 800);
+// console.log(`Total Price: ${totalPrice}`);
+
+
+const user={
+    username: "Rahul",
+    prices: 199
+}
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.user} and price is ${anyObject.prices}`);   
+}
+handleObject(user)
+
+
+const mynewArray =[200, 400, 600, 800]
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+console.log(returnSecondValue(mynewArray));
+
+
